@@ -61,11 +61,11 @@ namespace WpfApp1
         {
             int input = 0, s, i, j;
             var hasil = "";
-            if (txtInput.Text != "") input = Int32.Parse(txtInput2.Text);
+            if (txtInput2.Text != "") input = Int32.Parse(txtInput2.Text);
             for (i = input; i >= 1; i--)
             {
                 for (s = i; s < input; s++) hasil += " ";
-                for (j = 1; j <= (2 * i - 1); j++) hasil += "* ";
+                for (j = 1; j <= i; j++) hasil += "* "; 
                 hasil += "\n";
             }
             txtOutput2.Text = hasil;
