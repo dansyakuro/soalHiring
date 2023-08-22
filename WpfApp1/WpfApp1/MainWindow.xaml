@@ -17,6 +17,7 @@
         <Label Content="Keluaran Bintang" HorizontalAlignment="Left" Height="31" Margin="453,99,0,0" VerticalAlignment="Top" Width="132"/>
         <TextBox x:Name="txtOutput2" HorizontalAlignment="Left" Height="213" Margin="607,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="126" TextChanged="TextBox_TextChanged_1"/>
         <TextBox x:Name="txtInput2" HorizontalAlignment="Left" Height="35" Margin="607,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="126" TextChanged="TextBox_TextChanged_1"/>
+        <Label Content="1. Penentuan BIlangan Prima" HorizontalAlignment="Left" Height="31" Margin="27,10,0,0" VerticalAlignment="Top" Width="280" HorizontalContentAlignment="Center"/>
 
     </Grid>
 </Window>
